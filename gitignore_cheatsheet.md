@@ -22,10 +22,4 @@ This cheatsheet provides a quick reference for common patterns used in `.gitigno
 | `#` (comment)          | Lines starting with `#` are ignored (add comments for clarity)                                    | # Ignore local configuration              |
 | `!important.file`     | Negates the previous pattern, including the ignored file                                          | `.gitignore`, `important.log`                |
 
-**Additional Considerations:**
 
-* Use `.gitignore` files strategically to keep your repository clean and manageable.
-* For project-specific configuration or sensitive information, consider using environment variables or a separate `.env` file that is not committed to Git.
-* Refer to the official Git documentation for more advanced patterns and usage: https://git-scm.com/docs/gitignore
-
-**Remember:** This is a starting point. Customize your `.gitignore` file as needed for your specific project requirements.
