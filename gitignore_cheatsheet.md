@@ -1,15 +1,4 @@
-## GitIgnore Cheatsheet
 
-This cheatsheet provides a quick reference for common patterns used in `.gitignore` files to exclude files and folders from Git version control.
-
-**Understanding Pattern Matching:**
-
-* `*` (asterisk): Matches any number of characters (except `/`).
-* `?` (question mark): Matches a single character.
-* `[]` (brackets): Matches a character range (e.g., `[a-z]`).
-* `!` (exclamation mark): Negates a pattern.
-
-**Common GitIgnore Rules:**
 
 | Pattern                | Explanation/Matches                                                                         | Examples                                 |
 |------------------------|-----------------------------------------------------------------------------------------------|---------------------------------------------|
